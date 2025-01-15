@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+}
+
+#website {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: brown;
+    color: white;
+}
+
+.logo {
+    color: white;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.menu li a {
+    color: white;
+}
+
+ 
