@@ -11,12 +11,16 @@ body {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    background-color: brown;
-    color: white;
+    background-color: #ddd;
+    color: black;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .logo {
-    color: white;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
 }
 
 .menu {
@@ -30,6 +34,5 @@ body {
 
 .menu li a {
     color: white;
+    text-decoration: none;
 }
-
- 
