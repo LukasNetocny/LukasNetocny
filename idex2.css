@@ -1,29 +1,27 @@
 body {
     background-color: white;
+    font-family: Arial, sans-serif;
 }
 
 #website {
     max-width: 1000px;
     margin: 0 auto;
-    font-family: Arial;
 }
 
 #header {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    background-color: #ddd;
-    color: black;
-    padding-right: 15px;
-    padding-left: 15px;
+    background-color: black;
+    color: white;
+    padding: 15px;
 }
 
 .logo {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 25px;
 }
-
 
 .menu {
     text-align: right;
@@ -35,10 +33,19 @@ body {
 }
 
 .menu li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
-.baner {
-    background-color: red;
+#footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f4f4f4;
+}
+
+.footer-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
 }
