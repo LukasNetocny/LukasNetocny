@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+}
+
+
+a {
+    display: block;
+    width: 400px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: Verdana;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    background-color: navy;
+    border: 1px solid black;
+}
+
+a:hover {
+    color:navy;
+    background-color: white;
+
+}
