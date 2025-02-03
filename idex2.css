@@ -47,3 +47,23 @@ nav ul {
 .banner-text p {
     font-size: 24px;
 }
+
+ .feature {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 30px;
+    background-color: burlywood;
+}
+
+.fearture-head {
+    display: flex;
+    align-items: center;
+}
+
+.fearture-head svg {
+    margin-right: 10px;
+}
+.fearture-head h3 {
+    margin: 0;
+}
